@@ -3,16 +3,16 @@
 // dynamiceffects (because, well, thats what we are creating
 // Furnace (so we can use await/async in the macro)
 
-// sourceCompendiums -- an array of packs that contains dynamiceffects items.  Will be checked in order, and *ONLY* replace the dynamic effects
-// on the target object, leaving the rest of it alone
 
 //TODO a widget or other interface to select compendiums
-// the compendium containing items with dynamic effects already applied
+// sourceCompendiums -- an array of packs that contains dynamiceffects items.  Will be checked in order,
+// and *ONLY* replace the dynamic effects
+// on the target object, leaving the rest of it alone
 const sourceCompendiums = [ game.packs.get('dynamiceffects.premadeitems') ];
 
 // a destination compendium -- the compendium whose items with matching names should have dynamic effects added
 // ignored if any tokens are selected
-const destCompendium = game.packs.get('GregData.items');
+const destCompendium = game.packs.get('SomeDestinationPack.items');
 
 // alternative -- if any tokens are selected, modify their items with matching names
 const actors = canvas.tokens.controlled;
