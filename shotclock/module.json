@@ -7,7 +7,9 @@
     "minimumCoreVersion": "0.6.5",
     "compatibleCoreVersion": "0.6.5",
     "scripts": [],
-    "esmodules": ["shot-clock.js"],
+    "esmodules": ["shot-click.js"],
+    "url": "https://github.com/gludington/foundryutils/tree/master/shotclock",
+    "manifest": "https://raw.githubusercontent.com/gludington/foundryutils/master/shotclock/module.json",
     "languages": [
       {
         "lang": "en",
